@@ -1,0 +1,13 @@
+.clear, .clear1, .clear2, .clear3, .clear4, .clear5, .clear10, .clear20, .clear30, .clear40, .clear80 
+{ clear:both;	font-size:0px; line-height:0px; }
+.clear { height:0px; } .clear1 { height:1px; } .clear2 { height:2px; } .clear3 { height:3px; } .clear4 { height:4px; } .clear5 { height:5px; } .clear10 { height:10px; } .clear20 { height:20px; } .clear30 { height:30px; } .clear40 { height:40px; } .clear80 { height:40px; }
+
+.mjk-options-wrap { padding: 1em 2em;  
+	background: white;  
+	background: -moz-linear-gradient(top, #f4f2f2, white 20%, #f4f2f2 80%, white);  
+	background: -webkit-gradient(linear, left top, left bottom, from(#f4f2f2), color-stop(.2, white), color-stop(.8, #f4f2f2), to(white));  
+	border-top: 1px solid white;}
+	
+.mjk-options-wrap .regular-text, .mjk-options-wrap .large-text { background-color: #fff !important; }
+/*.mjk-options-wrap .code { background-color: #000 !important; color: #fff; }*/
+.mjk-options-wrap .button-primary {margin: 1px 1px 4px 1px;}

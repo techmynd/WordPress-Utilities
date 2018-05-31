@@ -1,0 +1,203 @@
+/**
+ * @package WordPress
+ * @subpackage MJK_Theme
+*/
+
+@media screen and (max-width: 320px) {
+    #siteTitle {margin-left: 10px;}
+    #nav .navbar-brand img {max-width: 150px;margin-top: 11px;}
+    .top-bar .pull-left {margin-top: 10px;}
+    .top-bar .pull-left, .top-bar .pull-right {float:none; text-align: center; width: 100%; margin-bottom: 10px; clear: both;}
+    /*kc responsiveness*/
+    .kc_col-sm-4, .kc_col-sm-3, .kc_col-sm-6, .kc_col-sm-9 {width: 99% !important; text-align: center !important; clear: both;}
+
+    .top-bar .socials a { margin: 0 3px; }
+	.sh-gallery .entry .gallery .gallery-item {width:100%;}
+	.single-post .post .entry .gallery .gallery-item { width: 100%;}
+
+    .footer-widgets .widget .widget-title, .footer-widgets .widget div, .footer-widgets .widget ul li, .footer-widgets .widget ul li a {text-align: center;}
+    .social-icons-footer a { margin: 10px 10px; }
+
+    .btn-success {width: 100%;}
+
+    .shop-page #content .products li {width: 100%;}
+    .shop-page #content .products li a img {width: auto !important; max-width: 200px !important; height: auto !important;}
+    .shop-page #content .products {display: block;}
+    .shop-page .woocommerce-ordering {text-align: center !important;}
+
+    .single-product-page .images a img {width: 100% !important; height: auto !important;}
+
+}
+@media screen and (min-width: 320px) and (max-width: 479px) {
+    #siteTitle {margin-left: 10px;}
+    #nav .navbar-brand img {max-width: 150px;margin-top: 11px;}
+    .top-bar .pull-left {margin-top: 10px;}
+    .top-bar .pull-left, .top-bar .pull-right {float:none; text-align: center; width: 100%; margin-bottom: 10px; clear: both;}
+    /*kc responsiveness*/
+    .kc_col-sm-4, .kc_col-sm-3, .kc_col-sm-6, .kc_col-sm-9 {width: 99% !important; text-align: center !important; clear: both;}
+
+    .top-bar .socials a { margin: 0 3px; }
+	.sh-gallery .entry .gallery .gallery-item {width:100%;}
+	.single-post .post .entry .gallery .gallery-item { width: 100%;}
+
+    .footer-widgets .widget .widget-title, .footer-widgets .widget div, .footer-widgets .widget ul li, .footer-widgets .widget ul li a {text-align: center;}
+    .social-icons-footer a { margin: 10px 10px; }
+    
+    .btn-success {width: 100%;}
+
+    .shop-page #content .products li {width: 100%;}
+    .shop-page #content .products li a img {width: auto !important; max-width: 200px !important; height: auto !important;}
+    .shop-page #content .products {display: block;}
+    .shop-page .woocommerce-ordering {text-align: center !important;}
+
+    .single-product-page .images a img {width: 100% !important; height: auto !important;}
+
+}
+@media screen and (min-width: 480px) and (max-width: 639px) {
+    #siteTitle {margin-left: 10px;}
+    .top-bar .pull-left {margin-top: 10px;}
+    .top-bar .pull-left, .top-bar .pull-right {float:none; text-align: center; width: 100%; margin-bottom: 10px; clear: both;}
+    /*kc responsiveness*/
+   .kc_col-sm-4, .kc_col-sm-3, .kc_col-sm-6, .kc_col-sm-9  {width: 99% !important; text-align: center !important; clear: both;}
+
+	.sh-gallery .entry .gallery .gallery-item {width:50%;}
+	.single-post .post .entry .gallery .gallery-item { width: 50%;}
+
+    .footer-widgets .widget .widget-title, .footer-widgets .widget div, .footer-widgets .widget ul li, .footer-widgets .widget ul li a {text-align: center;}
+    .social-icons-footer a { margin: 0 5px; }
+
+    .btn-success {width: 100%;}
+
+    .shop-page #content .products li {width: 100%;}
+    .shop-page #content .products li a img {width: auto !important;}
+    .shop-page #content .products {display: block;}
+    .shop-page .woocommerce-ordering {text-align: center !important;}
+
+    .single-product-page .images a img {width: 100% !important; height: auto !important;}
+}
+@media screen and (min-width: 640px) and (max-width: 767px) {
+    #siteTitle {margin-left: 10px;}	
+    .top-bar .pull-left {margin-top: 10px;}
+    .top-bar .pull-left, .top-bar .pull-right {float:none; text-align: center; width: 100%; margin-bottom: 10px; clear: both;}
+    /*kc responsiveness*/
+    .kc_col-sm-3, .kc_col-sm-4, .kc_col-sm-6, .kc_col-sm-9 {width: 50% !important;}
+    
+
+	.sh-gallery .entry .gallery .gallery-item {width:50%;}
+	.single-post .post .entry .gallery .gallery-item { width: 50%;}
+
+    .footer-widgets .widget .widget-title, .footer-widgets .widget div, .footer-widgets .widget ul li, .footer-widgets .widget ul li a {text-align: center;}
+  
+    .shop-page #content .products li {width: 100%;}
+    .shop-page #content .products li a img {width: auto !important;}
+    .shop-page #content .products {display: block;}
+
+    .single-product-page .images a img {width: 100% !important; height: auto !important;}
+}
+@media screen and (min-width: 768px) and (max-width: 1003px) {
+    /*nav responsive icon margin 0 to right for full width nav*/ 
+    .full-width-nav .navbar-toggle {margin-right: 0px;}
+    .top-bar .pull-left {margin-top: 10px;}
+    .top-bar .pull-left, .top-bar .pull-right {float:none; text-align: center; width: 100%; margin-bottom: 10px; clear: both;}
+    /*kc responsiveness*/
+    .kc_col-sm-3, .kc_col-sm-4, .kc_col-sm-6, .kc_col-sm-9 {width: 50% !important;}
+
+    .sh-gallery .entry .gallery .gallery-item {width:25%;}
+    .single-post .post .entry .gallery .gallery-item { width: 25%;}
+
+    .footer-widgets .widget .widget-title, .footer-widgets .widget div, .footer-widgets .widget ul li, .footer-widgets .widget ul li a {text-align: center;}
+    
+    .shop-page #content .products li {width: 100%;}
+    .shop-page #content .products li a img {width: auto !important;}
+    .shop-page #content .products {display: block;}
+
+}
+@media screen and (min-width: 1004px) and (max-width: 1259px) {
+
+	.single-post .post .entry .gallery .gallery-item { width: 50%;}
+    .shop-page #content .products li a img { max-width: 260px !important; height: auto !important;}
+
+    .single-product-page .images a img {width: 100% !important; height: auto !important;}
+}
+@media screen and (min-width: 1260px) and (max-width: 1279px) {
+
+}
+@media screen and (min-width: 1280px) and (max-width: 1365px) {
+
+}
+@media screen and (min-width: 1366px) and (max-width: 1599px) {
+
+}
+@media screen and (min-width: 1600px) and (max-width: 1679px) {
+
+}
+@media screen and (min-width: 1680px) {
+
+}
+
+
+/*Collapse Nav Menu - Starting from iPad*/
+@media (max-width: 991px) {
+    .navbar-header {float: none;}
+    .navbar-toggle {display: block;}
+    .navbar-collapse {border-top: 1px solid transparent;box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);}
+    .navbar-collapse.collapse {display: none!important;}
+    .navbar-nav {float: none!important;margin: 7.5px -15px;}
+    .navbar-nav>li {float: none;}
+    .navbar-nav>li>a {padding-top: 10px;padding-bottom: 10px;}
+    .navbar-text {float: none;margin: 15px 0;}
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in {display: block!important;}
+    .collapsing {overflow: hidden!important;}
+
+    .navbar-nav .open .dropdown-menu {position: static;float: none;width: auto; margin-top: 0; background-color: transparent; border: 0; 
+        -webkit-box-shadow: none;box-shadow: none;}
+    .navbar-nav>li>.dropdown-menu { border-top-left-radius: 0; border-top-right-radius: 0; }
+    .open>.dropdown-menu { display: block; }
+    .navbar-nav .open .dropdown-menu>li>a {line-height: 20px;}
+    .navbar-nav .open .dropdown-menu .dropdown-header, .navbar-nav .open .dropdown-menu>li>a {padding: 5px 15px 5px 25px;}
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover 
+    {color: #333; background-color: transparent;}
+    .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-nav .open .dropdown-menu>li>a:hover {background-image: none;}
+
+    #nav .navbar-brand img { max-width: 155px; }
+    .navbar-default .navbar-nav>li>a { line-height: 20px !important;}
+
+}
+
+
+/**
+3 pixels responsiveness
+Extra Media Queries to even strenghten responsiveness more
+**/
+
+/*iPhone 6 Plus*/
+    @media screen and (min-width: 413px) and (max-width: 415px) {
+    }
+    @media screen and (min-width: 735px) and (max-width: 737px) {
+    }
+/*iPhone 6 */
+    @media screen and (min-width: 374px) and (max-width: 376px) {
+    }
+    @media screen and (min-width: 666px) and (max-width: 668px) {
+    }
+/*iPhone 5 */
+    @media screen and (min-width: 319px) and (max-width: 321px) {
+    }
+    @media screen and (min-width: 567px) and (max-width: 569px) {
+    }
+/*Nexus 6P */
+    @media screen and (min-width: 434px) and (max-width: 436px) {
+    }
+    @media screen and (min-width: 772px) and (max-width: 774px) {
+    }
+/*Nexus 5X */
+    @media screen and (min-width: 410px) and (max-width: 412px) {
+    }
+    @media screen and (min-width: 730px) and (max-width: 732px) {
+    }
+/*Galaxy S5 */
+    @media screen and (min-width: 359px) and (max-width: 361px) {
+    }
+    @media screen and (min-width: 639px) and (max-width: 641px) {
+    }

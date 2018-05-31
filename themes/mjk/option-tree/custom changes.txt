@@ -1,0 +1,13 @@
+custom changes
+==============
+option-tree/includes/ot-settings-api.php
+line number > 269
+line number > 271
+line number > 303 > added an echo
+
+option-tree/assets/css/ot-admin.css
+added css ending lines from line 3976
+
+
+
+

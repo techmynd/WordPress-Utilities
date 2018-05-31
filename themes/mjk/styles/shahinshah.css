@@ -1,0 +1,65 @@
+.top-bar { padding: 4px 0; font-size: 13px; background-color: #3863a0; color: #eee; }
+.top-bar .contact-info {color:#eee;}
+.top-bar .contact-info .fa { color: #eee; }
+.top-bar .contact-info a { color: #eee; }
+.top-bar .contact-info a:hover { color: #fff; }
+.top-bar a:hover .fa { color: #eee; }
+.top-bar .pull-right a .fa { color: #d1e4ff; }
+.top-bar .pull-right a:hover .fa, .top-bar .socials .fa-rss:hover { color: #fff !important; }
+
+.navbar-default .navbar-nav>li>a { color: #999; letter-spacing: 0.5px; line-height:45px !important; }
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover, 
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover
+{ color: #000; background-color: #eee; }
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a {background-image:none; -webkit-box-shadow:none; box-shadow:none;}
+.navbar-default .dropdown-menu {border-radius:0;padding: 0; background-color:#f4f4f4;}
+
+.navbar-default .dropdown-menu>li>a:focus, .navbar-default .dropdown-menu>li>a:hover 
+{background-image:none !important; color:#000 !important; background-color:#fff;}
+
+.navbar-default .dropdown-menu>li>a {padding: 6px 10px;}
+#nav .navbar-brand img { max-width: 268px; margin-top: 7px; }
+
+.navbar-default .dropdown-menu>.active>a, .navbar-default .dropdown-menu>.active>a:focus, .navbar-default .dropdown-menu>.active>a:hover 
+{ color: #fff !important; background-color: #3863a0 !important; background-image: none !important; }
+
+.sidebar .widget .widget-title { background-color: #3863a0; height: 36px; font-size: 16px; letter-spacing:0.5px; font-weight: normal !important; }
+.sidebar .widget .widget-title .fa {color: #dae1ea !important; }
+
+.sidebar .widget_recent_entries ul {margin: 0 0 0 20px; list-style-type: circle; }
+
+#footer {background-color: #3863a0;}
+.footer-widgets .widget .widget-title {color: #d7e7ff; letter-spacing:0.5px;}
+.footer-widgets .widget .widget-title:after {background-color: #507ebf;}
+.footer-widgets-brd	{border-bottom: 1px solid #507ebf;}
+.footer li a, .footer div a, .footer {color: #c6deff;}
+.social-icons-footer a .fa { text-shadow: 0.5px 0.5px 3px #14396f; color: #fff; }
+
+.entry b, .entry strong {font-weight: 600;}
+
+.contact-page-form .wpcf7-textarea {width: 100%;}
+.contact-page-form .btn-success { padding: 6px 12px; font-size: 16px; font-weight: 400; width: 100%; }
+
+.sh-gallery .entry .gallery .gallery-item { width: 20%;}
+.entry .gallery .gallery-item .gallery-caption {display:none;}
+
+.category-recipes h2, .category-urdu-poetry h2, .category-urdu-jokes h2 {font-family: 'Jameel Noori Nastaleeq','Alvi lahori Nastaleeq','Urdu Naskh Asiatype','NafeesRegular','nafees-nastaleeq',Georgia,Arial,Tahoma !important; margin-top: 10px !important; }
+.category-recipes h3, .category-urdu-poetry h3, .category-urdu-jokes h3 {font-family: 'Jameel Noori Nastaleeq','Alvi lahori Nastaleeq','Urdu Naskh Asiatype','NafeesRegular','nafees-nastaleeq',Georgia,Arial,Tahoma !important; }
+.category-recipes h2, .category-recipes h3, 
+.category-urdu-poetry h2, .category-urdu-poetry h3, 
+.category-urdu-jokes h2, .category-urdu-jokes h3, 
+.category-recipes .postinfo, .category-urdu-poetry .postinfo, .category-urdu-jokes .postinfo, 
+.archive-page .category-recipes, .archive-page .category-urdu-poetry, .archive-page .category-urdu-jokes 
+{text-align: center !important;}
+.urdu-story-page .pages-paginate {direction: rtl;}
+.urdu-story-page #content h2 { font-size: 40px; text-align:center; font-family: 'Jameel Noori Nastaleeq','Alvi lahori Nastaleeq','Urdu Naskh Asiatype','NafeesRegular','nafees-nastaleeq',Georgia,Arial,Tahoma !important; margin-top: 10px !important;}
+.urdu-page-title, .urdu-page-title p {font-size: 40px; line-height: 50px;}
+
+.grid-inner-grey-box {background-color: #eaf3ff; padding: 20px; margin-bottom: 20px; text-align: center;}
+.grid-inner-grey-box p {margin-bottom: 0;}
+
+/*floating share bar bg opacity*/
+.a2a_floating_style {background: rgba(255,255,255,0.5) !important; border-radius: 3px !important; padding: 1px !important;}
+
+/*contact form 7*/
+span.wpcf7-not-valid-tip {color: #ffe5e5;}
