@@ -1,0 +1,46 @@
+footer
+========
+
+<div class="site-info">
+<div class="container">
+<div class="row">
+<div class="col-md-8">
+<div class="copyrights">© 2017 <a href="http://alshifaquran.com">AlshifaQuran</a>. All Rights Reserved.</div>
+<div class="small hosting-credits">A project by <a href="http://www.alshifaherbal.com" target="_blank" rel="noopener">Alshifa Natural Herbal Laboratories (PVT) LTD</a>.
+
+WEB HOSTING BY <a title="Web Hosting Pakistan" href="https://fridayhost.com" target="_blank" rel="noopener">FRIDAYHOST</a></div>
+</div>
+<div class="col-md-4">
+<div class="social"><i class="fa fa-rss fa-fw"></i>
+<i class="fa fa-facebook fa-fw"></i>
+<i class="fa fa-twitter fa-fw"></i>
+<i class="fa fa-linkedin fa-fw"></i></div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+topbar
+======
+
+<div class="top-bar">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 left">
+                <span class="phone"><i class="fa fa-phone fa-fw"></i> (+92)306-456-7895</span>
+<span class="email"><i class="fa fa-envelope-o fa-fw"></i> info@alshifaquran.com</span></div>
+            <div class="col-md-4 social">
+                <a href="https://www.facebook.com/alshifaquran/" rel="nofollow" target="_blank"><i class="fa fa-facebook fa-fw"></i></a>
+<a href="https://twitter.com/alshifaherbalpk" rel="nofollow" target="_blank"><i class="fa fa-twitter fa-fw"></i></a>
+<a href="https://pk.linkedin.com/in/hakim-muhammad-irfan-509bb072" rel="nofollow" target="_blank"><i class="fa fa-linkedin fa-fw"></i></a>
+<a href="http://alshifaquran.com/feed/" rel="nofollow" target="_blank"><i class="fa fa-rss fa-fw"></i></a>
+</div>
+        </div>
+    </div>
+</div>
