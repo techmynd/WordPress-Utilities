@@ -1,0 +1,15 @@
+custom cpt wp query resets the wp query and u cant get custom fields after that in template
+
+to fix that use 
+
+<?php
+// we initiated custom query - got results and then 
+// we are initiating regular query again so that we can proceed with acf fields again
+global $wp_query;
+while ( have_posts() ) : the_post(); ?>
+
+.... 
+
+
+<?php endwhile; // End loop ?>
+

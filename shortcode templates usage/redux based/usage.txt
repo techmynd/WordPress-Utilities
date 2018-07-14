@@ -1,0 +1,1 @@
+call these files in function.php file and use the shortcode in pages

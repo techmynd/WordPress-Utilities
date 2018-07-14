@@ -1,0 +1,15 @@
+https://codex.wordpress.org/Post_Type_Templates
+https://developer.wordpress.org/themes/template-files-section/custom-post-type-template-files/
+
+the page name should be same as your custom post type
+if u have done it, change cpt rewrite rule from cpt settings and update permalink
+
+For example u cant have page with name portfolio and create cpt named as portfolio
+
+u can create cpt and custom fields and get their code and paste in functions.php and decative these plugins 
+for faster load times
+
+ACF
+
+get_field('');
+the_field('');

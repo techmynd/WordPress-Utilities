@@ -1,0 +1,49 @@
+[slider_loop_one]
+
+<?php echo do_shortcode('[your_shortcode_handle]'); ?>
+
+
+
+Target Hook and insert shortcode
+Hook shortcode in single posts
+==============================
+add_action( 'loop_start', 'shortcode_before_entry' );
+ 
+function shortcode_before_entry() {
+ 
+    if ( ! is_singular( 'post' )  ) {
+        return;
+    }
+ 
+    echo do_shortcode('[your_shortcode_handle]');
+     
+}
+
+
+
+
+
+
+// Making your custom string parses shortcode
+$string = do_shortcode( $string );
+// If your string has a custom filter, add its tag name in an applicable add_filter function
+add_filter( 'my_string_filter_hook_tag_name', 'do_shortcode' );
+
+
+
+// Store the short code in a variable.
+$var = do_shortcode( '' );
+echo $var;
+
+
+
+
+https://developer.wordpress.org/reference/functions/do_shortcode/
+https://www.advancedcustomfields.com/resources/shortcode/
+
+
+
+
+
+
+

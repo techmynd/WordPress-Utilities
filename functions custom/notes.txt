@@ -1,0 +1,5 @@
+// custom functions
+if ( file_exists( dirname( __FILE__ ) . '/functions-custom.php' ) ) {
+	require_once( dirname( __FILE__ ) . '/functions-custom.php' );
+}
+

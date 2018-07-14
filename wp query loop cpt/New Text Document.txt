@@ -1,0 +1,93 @@
+
+<article id="post-<?php the_ID(); ?>" <?php post_class( array('list-article', 'clearfix') ); ?>>
+	<div class="list-article-content text-center">
+
+<div class="row">
+<?php
+/* Start the Loop */
+$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
+$args = array(
+    'post_per_page' => 10,
+    'paged'         => $paged,
+    'post_type' => 'portfolio'
+);
+$the_query = new WP_Query( $args );
+
+global $wp_query;
+// Put default query object in a temp variable
+$tmp_query = $wp_query;
+// Now wipe it out completely
+$wp_query = null;
+// Re-populate the global with our custom query
+$wp_query = $the_query;
+
+if ($the_query->have_posts()) : 
+    while ($the_query->have_posts()) : $the_query->the_post(); ?>
+
+
+		<div class="col-md-6">
+
+			   <div class="list-article-thumb">
+				<a href="<?php echo esc_url( get_permalink() ); ?>">
+					<?php
+					if ( has_post_thumbnail( ) ) {
+						the_post_thumbnail( 'onepress-blog-large' );
+					} else {
+						echo '<img alt="" src="'. get_template_directory_uri() . '/assets/images/placholder2.png' .'" class="d-auto img-fluid">';
+					}
+					?>
+				</a>
+			</div>
+
+			<!--<h2><?php the_title(); ?></h2>-->
+		    <div class="case-study-statement">
+			    <a href="<?php echo esc_url( get_permalink() ); ?>">
+			        <?php the_field('project_statement'); ?>
+			    </a>
+		    </div>
+
+    	</div><!--.col-md-6 ends-->
+
+		<?php
+		 // loop code
+		endwhile; ?>
+
+		</div><!--.row ends-->
+
+
+
+            <?php 
+             $nextl = get_next_posts_link();
+             $bckl = get_previous_posts_link();
+             if ($nextl !='' || $$bckl != '') { 
+             ?>
+            
+
+	        <div class="portfolio-page-navigation">
+				<?php
+				    previous_posts_link('Newer Projects');
+				    next_posts_link( 'Older Projects', $the_query->max_num_pages );
+				?>
+			</div>
+
+			<?php } ?>
+
+		<?php 
+		wp_reset_postdata();
+
+		else :
+		    // no post found code 
+		endif;
+
+		// Restore original query object
+		$wp_query = null;
+		$wp_query = $tmp_query;
+		?>
+
+
+		</div><!-- .entry-content -->
+	</div>
+
+</article><!-- #post-## -->
+
+

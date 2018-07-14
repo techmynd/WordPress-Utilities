@@ -1,0 +1,20 @@
+add shortcodes support in custom fields
+u can paste and use shortcodes in rich text editor of acf but how about input field or textarea
+
+add this to functions.php file to enable support for shortcodes in acf fields
+
+add_filter('acf/format_value/type=textarea', 'do_shortcode');
+
+
+https://support.advancedcustomfields.com/forums/topic/how-to-output-a-shortcode-in-an-input-field/
+
+https://www.advancedcustomfields.com/resources/acf-format_value/
+
+
+
+http://bbird.me/how-to-render-shortcode-using-advanced-custom-fields/
+
+<?php 
+  $revslider_shortcode = get_field( 'revolution_slider_shortcode' ); 
+  echo do_shortcode($revslider_shortcode);
+?>
