@@ -1,0 +1,8 @@
+Find and replace all 
+
+utf8mb4_unicode_520_ci
+
+with
+
+utf8mb4_unicode_ci
+

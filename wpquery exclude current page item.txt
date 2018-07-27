@@ -17,7 +17,7 @@ $currentBrandID = get_the_ID();
 /* Start the Loop */
 $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
 $args = array(
-    'post_per_page' => 9999999,
+    'posts_per_page' => 999,
     'post__not_in' => array($currentBrandID),
     'paged'         => $paged,
     'post_type' => 'brand'
